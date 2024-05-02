@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.responsive{}
+
+@media (min-width: 768px) {
+    .md\:absolute {
+        position:absolute
+    }
+
+    .md\:relative {
+        position: relative
+    }
+
+    .md\:top-\[-7rem\] {
+        top: -7rem
+    }
+
+    .md\:w-\[700px\] {
+        width: 700px
+    }
+
+    .md\:text-2xl {
+        font-size: 1.5rem;
+        line-height: 2rem
+    }
+}
+
+@media (max-width : 768px){
+    .responsive{
+        height: 100%;
+        padding: 2rem;
+    }
+}
